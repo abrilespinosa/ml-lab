@@ -1,0 +1,24 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos (pueden ser pesados o sensibles)
+datasets/*
+!datasets/.gitkeep
+
+# Modelos entrenados (pueden pesar mucho)
+models/*.pkl
+models/*.joblib
+
+# Sistema operativo
+.DS_Store
+
+# Entornos de VS Code (configuración personal, no del proyecto)
+.vscode/
