@@ -9,16 +9,16 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Datos (pueden ser pesados o sensibles)
-datasets/*
-!datasets/.gitkeep
+# Datos (pueden ser pesados o sensibles) — en cualquier proyecto del monorepo
+**/datasets/*
+!**/datasets/.gitkeep
 
-# Modelos entrenados (pueden pesar mucho)
-models/*.pkl
-models/*.joblib
+# Modelos entrenados
+**/models/*.pkl
+**/models/*.joblib
 
 # Sistema operativo
 .DS_Store
 
-# Entornos de VS Code (configuración personal, no del proyecto)
+# VS Code
 .vscode/
